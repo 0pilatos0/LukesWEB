@@ -1,0 +1,13 @@
+*{
+    background: black;
+}
+.scherm{
+    background-color: black;
+    width: 625px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+.agenda{
+    margin-left: 100px;
+}
