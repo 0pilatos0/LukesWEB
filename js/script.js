@@ -1,11 +1,8 @@
 function changeImage() {
-
-    if (document.getElementById("afbeelding").src == "http://www.userinterfaceicons.com/80x80/minimize.png") 
-    {
-        document.getElementById("afbeelding").src = "http://www.userinterfaceicons.com/80x80/maximize.png";
-    }
-    else 
-    {
-        document.getElementById("afbeelding").src = "http://www.userinterfaceicons.com/80x80/minimize.png";
-    }
+        document.getElementById("afbeelding").src = "./images/agenda.png";
+        console.log("test2")
+}
+function changeImage1() {
+        document.getElementById("afbeelding").src = "./images/camera.png";
+        console.log("test")
 }

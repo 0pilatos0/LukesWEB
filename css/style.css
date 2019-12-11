@@ -1,5 +1,6 @@
 *{
     background: black;
+    overflow: hidden;
 }
 .scherm{
     background-color: black;
@@ -10,4 +11,8 @@
 }
 .agenda{
     margin-left: 100px;
+}
+#afbeelding{
+    height: 80%;
+    width: 80%;
 }
