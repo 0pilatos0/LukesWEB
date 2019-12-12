@@ -1,16 +1,34 @@
 *{
-    background: black;
     overflow: hidden;
 }
-.scherm{
+body{
+    background-image: url(../images/achtergrond.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 25%;
     background-color: black;
+}
+.scherm{
+    background: none !important;
     width: 625px;
+    height: 10000px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin: 0 auto;
 }
-#agenda{
+.switchitem{
+    margin-top: 80px;
     margin-left: 100px;
+    width: 425px;
+    
+}
+#agenda{
+    margin-left: 30px;
+    margin-top: 55px;
+    height: 150px;
+}
+#scanner{
+    height: 150px;
 }
 #afbeelding{
     height: 80%;
